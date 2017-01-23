@@ -27,8 +27,7 @@ for r in resume_els:
 # Update all CVs
 for link in links:
     browser.get(link)
-    refresh_button = browser.find_element_by_css_selector('button.HH-\
-Resume-Touch-Button')
+    refresh_button = browser.find_element_by_css_selector('button.HH-Resume-Touch-Button')
     refresh_button.click()
     
 # Quit webdriver
