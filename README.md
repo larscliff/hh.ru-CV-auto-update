@@ -1,2 +1,1 @@
-# hh.ru-CV-auto-update
-Just update all your CVs on hh.ru easily
+This script just helps you updating CV (one or several) on hh.ru easily
