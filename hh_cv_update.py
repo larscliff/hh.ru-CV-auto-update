@@ -19,7 +19,7 @@ browser = webdriver.Chrome()
 browser.get('https://www.hh.ru/account/login')
 
 # Authentication
-emailel = browser.find_element_by_css_selector('input[type="email"]')
+emailel = browser.find_element_by_xpath('/html/body/div[1]/div/div[2]/div/div/form/div[1]/input')
 emailel.send_keys(login)
 passel = browser.find_element_by_css_selector('input[type="password"]')
 passel.send_keys(password)
